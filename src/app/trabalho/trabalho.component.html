@@ -1,0 +1,11 @@
+<h1>titulo</h1>
+<div> 
+    <input [(ngModel)]="tarefa" type="text">
+    <button (click)="adicionar()" type="button">Adicionar</button>
+    <ul>
+    <li *ngFor="let tarefa of tarefas"> 
+        <input class="item" type="checkbox"/> 
+        <label for="tarefas{{tarefa}}">{{tarefa}}</label> 
+    </li>
+    </ul>
+    </div>

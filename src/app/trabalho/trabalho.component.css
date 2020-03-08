@@ -1,0 +1,4 @@
+.item:checked + label {
+    color:#f00;
+    font-style: normal;
+}
