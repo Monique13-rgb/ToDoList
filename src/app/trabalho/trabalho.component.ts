@@ -24,4 +24,8 @@ constructor() { }
     this.tarefas.push(this.tarefa);
     this.tarefa = "";
   }
+  remover(batata2) {
+    this.tarefas.splice(batata2,1);
+    
+  }
 }
