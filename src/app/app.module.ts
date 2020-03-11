@@ -6,12 +6,16 @@ import { ExemplosComponent } from './exemplos/exemplos.component';
 
 import { FormsModule } from '@angular/forms';
 import { TrabalhoComponent } from './trabalho/trabalho.component';
+import { CalculoSalarioComponent } from './calculo-salario/calculo-salario.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ExemplosComponent,
-    TrabalhoComponent
+    TrabalhoComponent,
+    CalculoSalarioComponent,
+    
   ],
   imports: [
     BrowserModule,

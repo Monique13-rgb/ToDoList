@@ -1,0 +1,16 @@
+<div [style.background]="corFundo">
+
+
+<label>Salário: </label>
+<br />
+<input [(ngModel)]="salario"/>
+<br />
+<label>Gasto: </label>
+<input [(ngModel)]="adicionarGasto"/>
+<button (click)="adicionar()">Adicionar</button>
+<ul>
+    <li *ngFor="let gasto of gastos">-{{gasto}}</li>
+
+</ul>
+<p>Ainda restam: {{ restante }}</p>
+</div>
